@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(225, 100%, 94%);
+  background-image: url("images/pattern-background-desktop.svg");
+  background-size: 1440px 437px;
+  background-repeat: no-repeat;
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.full-container {
+  background-color: white;
+  margin: 8% 0;
+  height: 40rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1em;
+}
+
+.img-container{
+  display: flex;
+  flex: 1;
+  align-content: center;
+  align-items: center;
+}
+.img-container img{
+  max-width:100%;
+}
+
+.attribution {
+  display: flex;
+  flex: none;
+  align-self: ;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
